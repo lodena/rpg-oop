@@ -12,6 +12,11 @@
 		BB5750C91BE459D900812775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5750C71BE459D900812775 /* Main.storyboard */; };
 		BB5750CB1BE459D900812775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5750CA1BE459D900812775 /* Assets.xcassets */; };
 		BB5750CE1BE459D900812775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5750CC1BE459D900812775 /* LaunchScreen.storyboard */; };
+		BB5750D61BE45C0B00812775 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5750D51BE45C0B00812775 /* Character.swift */; };
+		BB5750D81BE4600D00812775 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5750D71BE4600D00812775 /* Player.swift */; };
+		BB5750DA1BE4651E00812775 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5750D91BE4651E00812775 /* Enemy.swift */; };
+		BB5750DC1BE4687300812775 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5750DB1BE4687300812775 /* Kimara.swift */; };
+		BB5750DE1BE46AF300812775 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5750DD1BE46AF300812775 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		BB5750CA1BE459D900812775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB5750CD1BE459D900812775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB5750CF1BE459D900812775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5750D51BE45C0B00812775 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		BB5750D71BE4600D00812775 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BB5750D91BE4651E00812775 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		BB5750DB1BE4687300812775 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		BB5750DD1BE46AF300812775 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				BB5750C31BE459D900812775 /* AppDelegate.swift */,
 				BB5750C51BE459D900812775 /* ViewController.swift */,
+				BB5750D51BE45C0B00812775 /* Character.swift */,
+				BB5750D71BE4600D00812775 /* Player.swift */,
+				BB5750D91BE4651E00812775 /* Enemy.swift */,
+				BB5750DB1BE4687300812775 /* Kimara.swift */,
+				BB5750DD1BE46AF300812775 /* DevilWizard.swift */,
 				BB5750C71BE459D900812775 /* Main.storyboard */,
 				BB5750CA1BE459D900812775 /* Assets.xcassets */,
 				BB5750CC1BE459D900812775 /* LaunchScreen.storyboard */,
@@ -136,6 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5750D81BE4600D00812775 /* Player.swift in Sources */,
+				BB5750DA1BE4651E00812775 /* Enemy.swift in Sources */,
+				BB5750DE1BE46AF300812775 /* DevilWizard.swift in Sources */,
+				BB5750DC1BE4687300812775 /* Kimara.swift in Sources */,
+				BB5750D61BE45C0B00812775 /* Character.swift in Sources */,
 				BB5750C61BE459D900812775 /* ViewController.swift in Sources */,
 				BB5750C41BE459D900812775 /* AppDelegate.swift in Sources */,
 			);
@@ -254,6 +274,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lodenaapps.rpg-oop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -265,6 +286,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lodenaapps.rpg-oop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -287,6 +309,7 @@
 				BB5750D41BE459D900812775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
